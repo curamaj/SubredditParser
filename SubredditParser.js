@@ -21,14 +21,14 @@ var redditjson_obj = JSON.parse(Get(urlwithjson));
 var dictionaryofurls = [];
 var source = [];
 //console.log(redditjson_obj);
-//console.log ("finna print the dictionary or urls");
+//console.log ("print the dictionary or urls");
 
 redditjson_obj.data.children.forEach(function(y){
 	//console.log (y.data);
 	dictionaryofurls.push(y.data);
 });
 
-//console.log ("finna print the array that has source urls + h/w");
+//console.log ("print the array that has source urls + h/w");
 redditjson_obj.data.children.forEach(function(l){
 	if (l.data.preview == undefined){
 		return; //skips over any posts at the beginning of the page that can be ads to other subreddits and other stuff that can break this script.
@@ -49,6 +49,3 @@ source.forEach (function (z){
 	console.log(z.url);
 	console.log("Aspect Ratio:" + z.width + "by" + z.height);
 }});
-
-
-// Download a file form a url.
