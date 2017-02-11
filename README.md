@@ -4,6 +4,6 @@ Prompts user to add subreddits to download images from and your devices height a
 
 The best way to use this is to open up a new chrome window, and in your browser click f12 (for debug console). Then navigate to console, and copy & paste the script. It will prompt you to type in subreddits to download from, and after you have entered them type a '.'
 
-After, you will be prompted to type in your screens height & width (in pixels, i.e: 1920 & 1080). Then your custom reddit image page will be created! You can click on any of these images to download the original source image at its original aspect ratio. 
+After, you will be prompted to type in your device's height & width (in pixels, i.e: 1920 & 1080). Then your custom reddit image page will be created! You can click on any of these images to download the original source image at its original aspect ratio. 
 
 With this first iteration, the goal was functionality and understanding HTML & Javascript. Try not to break this please! Any suggestions are welcome, and though I still have much to learn any input would be great! 
