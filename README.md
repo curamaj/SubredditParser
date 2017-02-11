@@ -6,4 +6,4 @@ The best way to use this is to open up a new chrome window, and in your browser 
 
 After, you will be prompted to type in your screens height & width (in pixels, i.e: 1920 & 1080). Then your custom reddit image page will be created! You can click on any of these images to download the original source image at its original aspect ratio. 
 
-Try not to break this please! I created this project as I wanted to learn a bit about javascript. Any suggestions are welcome! I still have much to learn!
+With this first iteration, the goal was functionality and understanding HTML & Javascript. Try not to break this please! Any suggestions are welcome, and though I still have much to learn any input would be great! 
