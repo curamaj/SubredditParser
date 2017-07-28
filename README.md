@@ -1,9 +1,6 @@
 # SubredditParser
 First iteration of my Subreddit image downloader!
-Prompts user to add subreddits to download images from and your devices height and width. Then generates a HTML page with downloadable images of the pictures found on the subreddit @ the time the script is run! Generates a maximum of 100 images, from any amount of subreddits (you can chain multiple!). I primarily created this as I wanted to download images from the r/EarthPorn subreddit with ease to make whatever I want as my wallpaper! Try it out yourself, so many people contribute beautiful pictures there, and I still need to implement a way to show more information about the people that post the images. Most of the credit goes to them, and to reddit for having a great API.
-
-These subreddits work best (so far! this list is to be updated):
-https://www.reddit.com/r/sfwpornnetwork/wiki/network
+Prompts user to add subreddits to download images from and your devices height and width. Then generates a HTML page with downloadable images of the pictures found on the subreddit @ the time the script is run! Generates a maximum of 100 images, from any amount of subreddits (you can chain multiple!). I primarily created this as I wanted to download images from various subreddits with ease to make whatever I want as my wallpaper! Try it out yourself, so many people contribute beautiful pictures there, and I still need to implement a way to show more information about the people that post the images. Most of the credit goes to them, and to reddit for having a great API.
 
 The best way to use this is to open up a new chrome window, and in your browser click get to yor debug menu (f12  -> Windows, Command+Option+J -> Mac). Then navigate to console, and copy & paste the script. It will prompt you to type in subreddits to download from, and after you have entered them type a '.'
 
