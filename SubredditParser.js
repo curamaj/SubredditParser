@@ -37,8 +37,9 @@ redditjson_obj.data.children.forEach(function(l){
 	source.push(l.data.preview.images[0].source);
 }); // this makes source have all our source urls with specified resolutions!
 
-var userwidth = prompt ("whats the pixel width of your screen?");
-var userheight = prompt ("whats the pixel height of your screen?");
+var userwidth = window.innerWidth; // prompt ("whats the pixel width of your screen?"); // Debug purposes
+var userheight = window.innerHeight;  // prompt ("Whats the pixel height of your screen?");
+
 
 source.forEach (function (z){
     if (z.height >= userheight && z.width >= userwidth){
